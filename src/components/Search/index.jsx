@@ -64,11 +64,19 @@ const Search = () => {
     updateSearchValue(event.target.value);
   };
 
-  const updateSearchValue = React.useCallback(
-    debounce((str) => {
-      dispatch(setSearch(str));
-    }, 500),
-    []
+  // const updateSearchValue = React.useCallback(
+  //   debounce((str) => {
+  //     dispatch(setSearch(str));
+  //   }, 500),
+  //   []
+  // );
+
+  const updateSearchValue = React.useMemo(
+    () =>
+      debounce((str) => {
+        dispatch(setSearch(str));
+      }, 500),
+    [dispatch]
   );
 
   const onClickSearchEl = () => {
