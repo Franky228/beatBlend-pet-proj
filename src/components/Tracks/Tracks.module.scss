@@ -81,7 +81,7 @@
       font-weight: 400;
 
       .tName {
-        a {
+        button {
           &:hover {
             color: #3f3f3f;
           }
@@ -91,7 +91,7 @@
       .tArtist {
         color: #777;
 
-        a {
+        button {
           color: #777;
 
           &:hover {

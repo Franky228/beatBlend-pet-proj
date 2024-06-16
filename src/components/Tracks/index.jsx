@@ -60,13 +60,34 @@ const Tracks = ({ obj, elemIndex, artistName, artistId }) => {
 
         <div className={styles.trackName}>
           <span className={styles.tName}>
-            <a>{obj.name}</a>
+            <button
+              style={{
+                background: 'none',
+                border: 'none',
+                padding: 0,
+                font: 'inherit',
+                cursor: 'pointer',
+              }}
+            >
+              {obj.name}
+            </button>
+
+            {/* <a>{obj.name}</a> */}
           </span>
           <span className={styles.tArtist}>
             {' — '}
-            <a onClick={(event) => onClickTrackArtist(artistId, event)}>
+            <button
+              onClick={(event) => onClickTrackArtist(artistId, event)}
+              style={{
+                background: 'none',
+                border: 'none',
+                padding: 0,
+                font: 'inherit',
+                cursor: 'pointer',
+              }}
+            >
               {artistName}
-            </a>
+            </button>
           </span>
         </div>
       </div>

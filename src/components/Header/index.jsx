@@ -5,7 +5,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import musicLogo from '../../assets/img/musicLogo128.png';
 import Search from '../Search';
 
-import { setWindowWidth, setOffset } from '../../redux/slices/sliderSlice';
 import { setHeaderHidden } from '../../redux/slices/headerSlice';
 import PagesButtons from '../PagesButtons';
 
@@ -15,18 +14,6 @@ const Header = () => {
   const isHeaderHidden = useSelector((state) => state.header.isHeaderHidden);
 
   const dispatch = useDispatch();
-
-  const handleResize = () => {
-    dispatch(setWindowWidth(window.innerWidth));
-    dispatch(setOffset(0));
-  };
-
-  React.useEffect(() => {
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
 
   React.useEffect(() => {
     let prevScrollPos = window.scrollY;
@@ -45,7 +32,7 @@ const Header = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [dispatch]);
 
   return (
     <header

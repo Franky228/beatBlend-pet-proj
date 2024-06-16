@@ -38,7 +38,6 @@ const AudioPlayer = () => {
     if (audioURL) audioRef.current.load();
     setAudioURL(`http://n91636wd.beget.tech/audio/${playingAudio.audioURL}`);
     const audioElement = audioRef.current;
-    audioElement.volume = volume;
 
     const handleEnded = () => {
       dispatch(setIsPlaying(false));
@@ -47,7 +46,7 @@ const AudioPlayer = () => {
     return () => {
       audioElement.removeEventListener('ended', handleEnded);
     };
-  }, [playingAudio]);
+  }, [playingAudio, audioURL, dispatch]);
 
   React.useEffect(() => {
     !isPlaying ? audioRef.current.pause() : audioRef.current.play();
@@ -224,6 +223,7 @@ const AudioPlayer = () => {
           setLoadError(true);
         }}
         ref={audioRef}
+        volume={volume}
         onTimeUpdate={handleTimeUpdate}
         className={styles.audioPlayer}
         onLoadedData={handleLoadedData}

@@ -44,7 +44,7 @@ const Album = () => {
       .catch((error) => {});
     window.scrollTo(0, 0);
     dispatch(setHeaderHidden(false));
-  }, [valueCurrAlbum, albumIdRedux]);
+  }, [valueCurrAlbum, albumIdRedux, dispatch]);
 
   const albums = artistAlbums.map((obj) => <Trends key={obj.id} {...obj} />);
   const albumTracks = tracks.map((obj, index) => (

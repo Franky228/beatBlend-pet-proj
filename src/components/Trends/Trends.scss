@@ -70,7 +70,7 @@
     display: flex;
     margin-top: 4px;
     &:first-child {
-      a {
+      button {
         color: #2c2c2c;
         font-size: 14px;
         line-height: 20px;
@@ -85,7 +85,7 @@
       }
     }
     &:nth-child(2) {
-      a {
+      button {
         color: #999;
         font-size: 13px;
         line-height: 18px;

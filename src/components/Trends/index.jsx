@@ -33,10 +33,30 @@ const Trends = ({ name, artistName, avatar, year, id, artistId }) => {
       </div>
       <div className="album-text">
         <div>
-          <a>{name}</a>
+          <button
+            style={{
+              background: 'none',
+              border: 'none',
+              padding: 0,
+              font: 'inherit',
+              cursor: 'pointer',
+            }}
+          >
+            {name}
+          </button>
         </div>
         <div onClick={(e) => anClickArtistName(artistId, e)}>
-          <a>{artistName}</a>
+          <button
+            style={{
+              background: 'none',
+              border: 'none',
+              padding: 0,
+              font: 'inherit',
+              cursor: 'pointer',
+            }}
+          >
+            {artistName}
+          </button>
         </div>
         <div>{year}</div>
       </div>
