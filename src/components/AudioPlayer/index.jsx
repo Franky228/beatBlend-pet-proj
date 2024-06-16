@@ -37,7 +37,7 @@ const AudioPlayer = () => {
 
   React.useEffect(() => {
     if (audioURL) audioRef.current.load();
-    setAudioURL(`http://n91636wd.beget.tech/audio/${playingAudio.audioURL}`);
+    setAudioURL(`../../assets/audio/${playingAudio.audioURL}`);
     const audioElement = audioRef.current;
 
     const handleEnded = () => {
