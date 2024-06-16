@@ -22,8 +22,9 @@ const AudioPlayer = () => {
   const [isSeeking, setIsSeeking] = React.useState(false);
   const [volume, setVolume] = React.useState(0.5); // начальная громкость
   const [audioURL, setAudioURL] = React.useState(
-    `http://n91636wd.beget.tech/audio/${playingAudio.audioURL}`
+    `../../assets/audio/${playingAudio.audioURL}`
   );
+
   const [isHovered, setIsHovered] = React.useState(false);
   const [currPlayingTime, setCurrPlayingTime] = React.useState('00:00');
   const [currDurationTime, setCurrDurationTime] = React.useState('00:00');
