@@ -22,7 +22,7 @@ const AudioPlayer = () => {
   const [isSeeking, setIsSeeking] = React.useState(false);
   const [volume, setVolume] = React.useState(0.5); // начальная громкость
   const [audioURL, setAudioURL] = React.useState(
-    `../../assets/audio/${playingAudio.audioURL}`
+    `/audio/${playingAudio.audioURL}`
   );
 
   const [isHovered, setIsHovered] = React.useState(false);
@@ -37,7 +37,7 @@ const AudioPlayer = () => {
 
   React.useEffect(() => {
     if (audioURL) audioRef.current.load();
-    setAudioURL(`../../assets/audio/${playingAudio.audioURL}`);
+    setAudioURL(`/audio/${playingAudio.audioURL}`);
     const audioElement = audioRef.current;
 
     const handleEnded = () => {
