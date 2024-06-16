@@ -1,0 +1,58 @@
+.searchElem {
+  height: 58px;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  user-select: none;
+
+  &:hover {
+    background-color: #ebebeb;
+    cursor: pointer;
+  }
+
+  .searchAvatar {
+    display: flex;
+    width: 52px;
+    height: 52px;
+    overflow: hidden;
+    img {
+      height: auto;
+      width: auto;
+    }
+  }
+
+  .textSearchElem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+
+    .searchTitle {
+      font-size: 11px;
+      line-height: 1.5;
+      white-space: nowrap;
+      font-weight: 500;
+    }
+
+    .searchArtist {
+      font-size: 11px;
+      line-height: 1.5;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block;
+      font-style: normal;
+    }
+
+    .searchElemType {
+      text-transform: uppercase;
+      font-size: 11px;
+      line-height: 1.5;
+      white-space: nowrap;
+    }
+  }
+}

@@ -1,0 +1,192 @@
+.artist-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+
+  .artist-media {
+    min-width: 66%;
+    min-height: 100%;
+    border-right: 1px solid #e5e5e5;
+    padding: 30px 30px 60px;
+
+    .artist-page-afisha {
+      white-space: nowrap;
+      // overflow: hidden;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    .tracks-art-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-auto-flow: column;
+      grid-row-gap: 7px;
+      grid-column-gap: 7px;
+      margin-bottom: 40px;
+    }
+
+    .artist-page-albums {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 1600px) {
+      .artist-page-albums {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media screen and (max-width: 1270px) {
+      .artist-page-albums {
+        .grid-item {
+          width: 186px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 1050px) {
+      .artist-page-albums {
+        .grid-item {
+          width: 142px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 810px) {
+    }
+  }
+
+  .artist-info {
+    position: sticky;
+    min-width: 34%;
+    flex-grow: 1;
+    min-height: 100%;
+    padding: 30px 15px;
+
+    .artist-header {
+      width: 100%;
+      display: flex;
+      justify-content: left;
+
+      .artist-avatar {
+        min-width: 170px;
+        overflow: hidden;
+        display: flex;
+        border-radius: 50%;
+        margin: 0 30px 0 0;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .artist-title {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: space-between;
+
+        .artist-type {
+          color: #8d8d8d;
+          font-weight: 200;
+          font-size: 14px;
+        }
+
+        .artist-name {
+          font-weight: 500;
+          font-size: 2em;
+        }
+
+        .artist-place {
+          margin-top: 18px;
+        }
+
+        .artist-country {
+          font-size: 14px;
+          line-height: 21px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 1270px) {
+      .artist-header {
+        flex-direction: column;
+        justify-content: center !important;
+
+        .artist-avatar {
+          width: fit-content;
+          margin-left: auto;
+          margin-right: auto;
+
+          img {
+            width: 170px;
+          }
+        }
+      }
+
+      .artist-title {
+        text-align: center;
+      }
+    }
+
+    .artist-biography {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      border-top: 1px solid #e5e5e5;
+
+      h2 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        margin-top: 1vw;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+      ul {
+        font-weight: 400;
+      }
+      .bio-text {
+        font-weight: 400;
+
+        .toggleButton {
+          width: fit-content;
+          background: none;
+          border: none;
+          color: #616161;
+          font-weight: 400;
+          font-size: 17px;
+          margin-left: 5px;
+
+          &:hover {
+            cursor: pointer;
+            color: black;
+          }
+        }
+      }
+
+      @media screen and (max-width: 1050px) {
+        ul {
+          font-size: 14px;
+        }
+
+        .bio-text {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+.trackElem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  border: 1px solid white;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    border: 1px solid #8f8f8f;
+
+    .trendsAvatarPlayIcon {
+      opacity: 1 !important;
+    }
+  }
+
+  .trackNum {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 40px;
+    overflow: hidden;
+    color: #777;
+    width: 40px;
+    min-height: 20px;
+  }
+
+  .trackInf {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 100%;
+    align-items: center;
+
+    .trackAvatar {
+      position: relative;
+      display: flex;
+      height: 100%;
+      height: auto;
+      margin-right: 10px;
+
+      .trendsAvatarPlayIcon {
+        position: absolute;
+        background-color: rgba($color: #000000, $alpha: 0.3);
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        transition: all 0.3s ease-in-out;
+
+        .avatarPlayIcon {
+          position: absolute;
+          width: 70%;
+          height: 70%;
+          border-radius: 50%;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: black;
+          box-shadow: 0px 0px 10px #f0f0f0;
+          transition: all 0.1s ease-in-out;
+
+          svg {
+            position: absolute;
+            width: 60%;
+            height: 60%;
+            top: 50%;
+            left: 53%;
+            transform: translate(-50%, -50%);
+            fill: #f0f0f0;
+          }
+
+          &:hover {
+            background-color: #2c2c2c;
+          }
+        }
+      }
+    }
+
+    .trackName {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 400;
+
+      .tName {
+        a {
+          &:hover {
+            color: #3f3f3f;
+          }
+        }
+      }
+
+      .tArtist {
+        color: #777;
+
+        a {
+          color: #777;
+
+          &:hover {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

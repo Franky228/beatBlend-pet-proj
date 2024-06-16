@@ -1,0 +1,62 @@
+.slider-root {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.afisha-title {
+  display: flex;
+  width: 80%;
+  margin-bottom: 1vw;
+
+  &:first-child {
+    padding-top: 1vw;
+  }
+
+  h1 {
+    position: relative;
+    // left: 15vw;
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .content_trends {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .content_trends {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  .grid-item {
+    width: 238px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .afisha-title {
+    h1 {
+      font-size: 25px;
+    }
+  }
+
+  .grid-item {
+    width: 185px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .grid-item {
+    width: 161px;
+  }
+}
+
+.content_trends {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-content: center;
+}

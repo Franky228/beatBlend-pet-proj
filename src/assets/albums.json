@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Фантомас",
+    "artistName": "Ленинград",
+    "avatar": "//avatars.yandex.net/get-music-content/10210263/3ad90872.a.29108570-1/200x200",
+    "rating": 4.3,
+    "year": "2024",
+    "genre": "русский рок",
+    "id": "1",
+    "artistId": "1"
+  },
+  {
+    "name": "Не суждено",
+    "artistName": "Ленинград",
+    "avatar": "//avatars.yandex.net/get-music-content/10139807/b9678e53.a.28957427-1/200x200",
+    "rating": 3.7,
+    "year": "2024",
+    "genre": "русский рок",
+    "id": "2",
+    "artistId": "1"
+  },
+  {
+    "name": "Тюль",
+    "artistName": "Ленинград",
+    "avatar": "//avatars.yandex.net/get-music-content/9867886/1230f2cb.a.28801297-1/200x200",
+    "rating": 4.6,
+    "year": "2023",
+    "genre": "русский рок",
+    "id": "3",
+    "artistId": "1"
+  },
+  {
+    "name": "Ё! О!",
+    "artistName": "Ленинград",
+    "avatar": "//avatars.yandex.net/get-music-content/10210263/9cc6f16e.a.28575142-1/200x200",
+    "rating": 3.2,
+    "year": "2023",
+    "genre": "русский рок",
+    "id": "4",
+    "artistId": "1"
+  },
+  {
+    "name": "Принцип",
+    "artistName": "Ленинград",
+    "avatar": "//avatars.yandex.net/get-music-content/8123381/5dc18740.a.25664364-1/200x200",
+    "rating": 4.8,
+    "year": "2023",
+    "genre": "русский рок",
+    "id": "5",
+    "artistId": "1"
+  },
+  {
+    "name": "Психотерапевтическая",
+    "artistName": "Ленинград",
+    "avatar": "//avatars.yandex.net/get-music-content/8096180/bc98aa69.a.25200925-1/200x200",
+    "rating": 3.4,
+    "year": "2023",
+    "genre": "русский рок",
+    "id": "6",
+    "artistId": "1"
+  },
+  {
+    "name": "Русский",
+    "artistName": "Ленинград",
+    "avatar": "//avatars.yandex.net/get-music-content/8123381/72087828.a.25000516-1/200x200",
+    "rating": 4.1,
+    "year": "2024",
+    "genre": "русский рок",
+    "id": "7",
+    "artistId": "1"
+  },
+  {
+    "name": "Гамаюн",
+    "artistName": "Ленинград",
+    "avatar": "//avatars.yandex.net/get-music-content/6201394/172cb092.a.23265162-1/200x200",
+    "rating": 4.7,
+    "year": "2024",
+    "genre": "русский рок",
+    "id": "8",
+    "artistId": "1"
+  },
+  {
+    "name": "Мертвец",
+    "artistName": "Ленинград",
+    "avatar": "//avatars.yandex.net/get-music-content/6202531/dde205dc.a.22856480-1/200x200",
+    "rating": 3.91,
+    "year": "2022",
+    "genre": "русский рок",
+    "id": "9",
+    "artistId": "1"
+  },
+  {
+    "name": "Не Зорро",
+    "artistName": "Ленинград",
+    "avatar": "//avatars.yandex.net/get-music-content/6201394/4b046520.a.22856474-2/200x200",
+    "rating": 4.6,
+    "year": "2022",
+    "genre": "русский рок",
+    "id": "10",
+    "artistId": "1"
+  },
+  {
+    "name": "Москвич",
+    "artistName": "Ленинград",
+    "avatar": "//avatars.yandex.net/get-music-content/6214856/ee502f38.a.22610626-1/200x200",
+    "rating": 4.3,
+    "year": "2022",
+    "genre": "русский рок",
+    "id": "11",
+    "artistId": "1"
+  },
+  {
+    "name": "Мелочи",
+    "artistName": "Ленинград",
+    "avatar": "//avatars.yandex.net/get-music-content/6201394/6a094a94.a.22192394-1/200x200",
+    "rating": 4.9,
+    "year": "2024",
+    "genre": "русский рок",
+    "id": "12",
+    "artistId": "1"
+  },
+  {
+    "name": "Пасха",
+    "artistName": "Shortparis",
+    "avatar": "//avatars.yandex.net/get-music-content/149669/2624ada8.a.4375066-1/200x200",
+    "rating": 4.3,
+    "year": "2017",
+    "genre": "местная инди-музыка",
+    "id": "13",
+    "artistId": "2"
+  },
+  {
+    "name": "Страшно",
+    "artistName": "Shortparis",
+    "avatar": "//avatars.yandex.net/get-music-content/118603/e8a93aae.a.6274884-1/200x200",
+    "rating": 4.9,
+    "year": "2019",
+    "genre": "местная инди-музыка",
+    "id": "14",
+    "artistId": "2"
+  },
+  {
+    "name": "Так закалялась сталь",
+    "artistName": "Shortparis",
+    "avatar": "//avatars.yandex.net/get-music-content/2266607/8fad50bf.a.9081948-1/200x200",
+    "rating": 4.7,
+    "year": "2019",
+    "genre": "местная инди-музыка",
+    "id": "15",
+    "artistId": "2"
+  },
+  {
+    "name": "Яблонный сад",
+    "artistName": "Shortparis",
+    "avatar": "//avatars.yandex.net/get-music-content/5235336/ec72931b.a.16375345-1/200x200",
+    "rating": 5,
+    "year": "2021",
+    "genre": "местная инди-музыка",
+    "id": "16",
+    "artistId": "2"
+  }
+]

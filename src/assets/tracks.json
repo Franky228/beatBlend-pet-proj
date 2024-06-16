@@ -1,0 +1,281 @@
+[
+  {
+    "name": "Фантомас",
+    "avatar": "//avatars.yandex.net/get-music-content/10210263/3ad90872.a.29108570-1/50x50",
+    "audioURL": "Ltningrad - Fantomas.mp3",
+    "id": "1",
+    "albumId": "1",
+    "artistId": "1",
+    "artistName": "Ленинград",
+    "rating": 4.2
+  },
+  {
+    "name": "Не суждено",
+    "avatar": "//avatars.yandex.net/get-music-content/10139807/b9678e53.a.28957427-1/50x50",
+    "audioURL": "Leningrad - Ne sujdeno.mp3",
+    "id": "2",
+    "albumId": "2",
+    "artistId": "1",
+    "artistName": "Ленинград",
+    "rating": 3.8
+  },
+  {
+    "name": "Тюль",
+    "avatar": "//avatars.yandex.net/get-music-content/9867886/1230f2cb.a.28801297-1/50x50",
+    "audioURL": "Leningrad - Tul.mp3",
+    "id": "3",
+    "albumId": "3",
+    "artistId": "1",
+    "artistName": "Ленинград",
+    "rating": 4.5
+  },
+  {
+    "name": "Ё! О!",
+    "avatar": "//avatars.yandex.net/get-music-content/10210263/9cc6f16e.a.28575142-1/50x50",
+    "audioURL": "Leningrad - E O.mp3",
+    "id": "4",
+    "albumId": "4",
+    "artistId": "1",
+    "rating": 3.6
+  },
+  {
+    "name": "Принцип",
+    "avatar": "//avatars.yandex.net/get-music-content/8123381/5dc18740.a.25664364-1/50x50",
+    "audioURL": "Leningrad - Princip.mp3",
+    "id": "5",
+    "albumId": "5",
+    "artistId": "1",
+    "artistName": "Ленинград",
+    "rating": 4.9
+  },
+  {
+    "name": "Психотерапевтическая",
+    "avatar": "//avatars.yandex.net/get-music-content/8096180/bc98aa69.a.25200925-1/50x50",
+    "audioURL": "Leningrad - Psihoterapevticheskaya.mp3",
+    "id": "6",
+    "albumId": "6",
+    "artistId": "1",
+    "artistName": "Ленинград",
+    "rating": 4.1
+  },
+  {
+    "name": "Русский",
+    "avatar": "//avatars.yandex.net/get-music-content/8123381/72087828.a.25000516-1/50x50",
+    "audioURL": "Leningrad - Russian.mp3",
+    "id": "7",
+    "albumId": "7",
+    "artistId": "1",
+    "artistName": "Ленинград",
+    "rating": 3.3
+  },
+  {
+    "name": "Гамаюн",
+    "avatar": "//avatars.yandex.net/get-music-content/6201394/172cb092.a.23265162-1/50x50",
+    "audioURL": "Leningrad - Gamaun.mp3",
+    "id": "8",
+    "albumId": "8",
+    "artistId": "1",
+    "artistName": "Ленинград",
+    "rating": 4.7
+  },
+  {
+    "name": "Мертвец",
+    "avatar": "//avatars.yandex.net/get-music-content/6202531/dde205dc.a.22856480-1/50x50",
+    "audioURL": "Leningrad - Mertvec.mp3",
+    "id": "9",
+    "albumId": "9",
+    "artistId": "1",
+    "artistName": "Ленинград",
+    "rating": 4.3
+  },
+  {
+    "name": "Не Зорро",
+    "avatar": "//avatars.yandex.net/get-music-content/6201394/4b046520.a.22856474-2/50x50",
+    "audioURL": "Leningrad - Ne Zorro.mp3",
+    "id": "10",
+    "albumId": "10",
+    "artistId": "1",
+    "artistName": "Ленинград",
+    "rating": 3.5
+  },
+  {
+    "name": "Москвич",
+    "avatar": "//avatars.yandex.net/get-music-content/6214856/ee502f38.a.22610626-1/50x50",
+    "audioURL": "Leningrad - Moskvich.mp3",
+    "id": "11",
+    "albumId": "11",
+    "artistId": "1",
+    "artistName": "Ленинград",
+    "rating": 4.8
+  },
+  {
+    "name": "Мелочи",
+    "avatar": "//avatars.yandex.net/get-music-content/6201394/6a094a94.a.22192394-1/50x50",
+    "audioURL": "Leningrad - Melochi.mp3",
+    "id": "12",
+    "albumId": "12",
+    "artistId": "1",
+    "artistName": "Ленинград",
+    "rating": 3.9
+  },
+  {
+    "name": "Любовь",
+    "avatar": "//avatars.yandex.net/get-music-content/149669/2624ada8.a.4375066-1/50x50",
+    "audioURL": "Shortparis - Love.mp3",
+    "id": "13",
+    "albumId": "13",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 4.3
+  },
+  {
+    "name": "Что-то особое во мне",
+    "avatar": "//avatars.yandex.net/get-music-content/149669/2624ada8.a.4375066-1/50x50",
+    "audioURL": "Shortparis - Something strange in me.mp3",
+    "id": "14",
+    "albumId": "13",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 4.3
+  },
+  {
+    "name": "Туту",
+    "avatar": "//avatars.yandex.net/get-music-content/149669/2624ada8.a.4375066-1/50x50",
+    "audioURL": "Shortparis - Tutu.mp3",
+    "id": "15",
+    "albumId": "13",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 4.8
+  },
+  {
+    "name": "Новокузнецк",
+    "avatar": "//avatars.yandex.net/get-music-content/149669/2624ada8.a.4375066-1/50x50",
+    "audioURL": "Shortparis - Novokuznetsk.mp3",
+    "id": "16",
+    "albumId": "13",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 4.2
+  },
+  {
+    "name": "Пасха",
+    "avatar": "//avatars.yandex.net/get-music-content/149669/2624ada8.a.4375066-1/50x50",
+    "audioURL": "Shortparis - Easter.mp3",
+    "id": "17",
+    "albumId": "13",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 4.9
+  },
+  {
+    "name": "Шум великой Томи",
+    "avatar": "//avatars.yandex.net/get-music-content/149669/2624ada8.a.4375066-1/50x50",
+    "audioURL": "Shortparis - Shum Great Tom.mp3",
+    "id": "18",
+    "albumId": "13",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 4.4
+  },
+  {
+    "name": "Страшно",
+    "avatar": "//avatars.yandex.net/get-music-content/118603/e8a93aae.a.6274884-1/50x50",
+    "audioURL": "Shortparis - Fearfully.mp3",
+    "id": "19",
+    "albumId": "14",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 4.9
+  },
+  {
+    "name": "Нелюбовь",
+    "avatar": "//avatars.yandex.net/get-music-content/2266607/8fad50bf.a.9081948-1/50x50",
+    "audioURL": "Shortparis - Nolove.mp3",
+    "id": "20",
+    "albumId": "15",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 4.7
+  },
+  {
+    "name": "Поломало",
+    "avatar": "//avatars.yandex.net/get-music-content/2266607/8fad50bf.a.9081948-1/50x50",
+    "audioURL": "Shortparis - Polomalo.mp3",
+    "id": "21",
+    "albumId": "15",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 4.9
+  },
+  {
+    "name": "Стыд",
+    "avatar": "//avatars.yandex.net/get-music-content/2266607/8fad50bf.a.9081948-1/50x50",
+    "audioURL": "Shortparis - Shame.mp3",
+    "id": "22",
+    "albumId": "15",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 4.9
+  },
+  {
+    "name": "Страшно",
+    "avatar": "//avatars.yandex.net/get-music-content/2266607/8fad50bf.a.9081948-1/50x50",
+    "audioURL": "Shortparis - Fearfully.mp3",
+    "id": "23",
+    "albumId": "15",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 4.9
+  },
+  {
+    "name": "Отвечай за слова",
+    "avatar": "//avatars.yandex.net/get-music-content/2266607/8fad50bf.a.9081948-1/50x50",
+    "audioURL": "Shortparis - Otvechay za slova.mp3",
+    "id": "24",
+    "albumId": "15",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 4.8
+  },
+  {
+    "name": "Ножевой",
+    "avatar": "//avatars.yandex.net/get-music-content/2266607/8fad50bf.a.9081948-1/50x50",
+    "audioURL": "Shortparis - Nojevoy.mp3",
+    "id": "25",
+    "albumId": "15",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 4.8
+  },
+  {
+    "name": "Золото",
+    "avatar": "//avatars.yandex.net/get-music-content/5235336/ec72931b.a.16375345-1/50x50",
+    "audioURL": "Shortparis - Gold.mp3",
+    "id": "26",
+    "albumId": "16",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 4.1
+  },
+  {
+    "name": "Скука",
+    "avatar": "//avatars.yandex.net/get-music-content/5235336/ec72931b.a.16375345-1/50x50",
+    "audioURL": "Shortparis - Boredom.mp3",
+    "id": "27",
+    "albumId": "16",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 4.7
+  },
+  {
+    "name": "Яблонный сад",
+    "avatar": "//avatars.yandex.net/get-music-content/5235336/ec72931b.a.16375345-1/50x50",
+    "audioURL": "Shortparis - Apple Garden.mp3",
+    "id": "28",
+    "albumId": "16",
+    "artistId": "2",
+    "artistName": "Shortparis",
+    "rating": 5
+  }
+]

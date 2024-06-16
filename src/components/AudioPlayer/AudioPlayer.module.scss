@@ -1,0 +1,241 @@
+.audioFooter {
+  z-index: 10000;
+  display: flex;
+  position: fixed;
+  // bottom: 20px;
+  width: 50%;
+  height: 110px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba($color: #353535, $alpha: 0.95);
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  transition: all 0.5s ease;
+
+  .playerPanel {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 80vw;
+    // justify-content: space-between;
+    // margin-top: 15px;
+
+    .progressBar {
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+      height: fit-content;
+      // position: absolute;
+      justify-content: center;
+      width: 100%;
+      // overflow: hidden;
+      height: fit-content;
+      margin-bottom: 10px;
+
+      progress {
+        border-radius: 20px;
+        width: 100%;
+        height: 10px;
+        appearance: none; /* Убираем стандартный стиль в Firefox */
+      }
+
+      .timer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: fit-content;
+        margin-bottom: 2px;
+
+        span {
+          white-space: nowrap;
+          width: 31px;
+          color: #ffffff;
+          font-size: 12px;
+          font-weight: 200;
+
+          &:last-child {
+            position: relative;
+            // right: 5px;
+          }
+        }
+      }
+
+      // mozilla
+
+      ::-moz-progress-bar {
+        background-color: #353535; /* Цвет заполненной части */
+      }
+      ::-moz-range-progress {
+        // background-color: #808080; /* Цвет фона прогресс-бара */
+        background-color: #ff0000; /* Цвет фона прогресс-бара */
+      }
+
+      // webkit
+
+      ::-webkit-progress-value {
+        background-color: #585858; /* Цвет заполненной части */
+      }
+      ::-webkit-progress-bar {
+        background-color: #e6e6e6; /* Цвет фона прогресс-бара */
+      }
+    }
+
+    .downBlock {
+      display: flex;
+      width: 100%;
+
+      .leftBlock {
+        flex: 1;
+        display: flex;
+
+        .trackInfo {
+          display: flex;
+          align-items: center;
+
+          .trackAvatar {
+            display: flex;
+          }
+
+          .trackTitle {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            color: azure;
+
+            .trackName {
+              font-weight: 500;
+              font-size: 13px;
+              margin-bottom: 5px;
+
+              &:hover {
+                cursor: pointer;
+                color: #ffffff;
+              }
+            }
+
+            .trackArtistName {
+              font-weight: 400;
+              font-size: 13px;
+              color: #e8e8e8;
+
+              &:hover {
+                cursor: pointer;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+
+      .centralBlock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+
+        .playIcon {
+          display: flex;
+          height: 100%;
+          width: 28px;
+          border-radius: 50%;
+
+          &:hover {
+            cursor: pointer;
+
+            svg {
+              fill: #48a0f7;
+            }
+          }
+
+          svg {
+            height: 100%;
+            width: auto;
+            fill: azure;
+          }
+        }
+      }
+
+      .soundBlock {
+        flex: 1;
+        display: flex;
+        height: 50px;
+        align-items: center;
+        justify-content: end;
+
+        .soundElemCont {
+          position: relative;
+          height: 100%;
+
+          &:hover {
+            .soundInput {
+              opacity: 1;
+              pointer-events: all;
+            }
+          }
+
+          .soundIcon {
+            display: flex;
+            height: 100%;
+            // padding-top: 10px;
+            // margin-top: -10px;
+            width: fit-content;
+            border-radius: 50%;
+            align-items: center;
+
+            &:hover {
+              cursor: pointer;
+
+              svg {
+                fill: #48a0f7;
+              }
+            }
+
+            svg {
+              height: 20px;
+              width: auto;
+              fill: azure;
+            }
+          }
+
+          .soundInput {
+            cursor: pointer;
+            pointer-events: none;
+            opacity: 0;
+            display: flex;
+            position: absolute;
+            background-color: #e8e8e8;
+            transform: rotate(-90deg);
+            align-items: center;
+            justify-content: center;
+            height: 30px;
+            padding: 5px;
+            left: -76px;
+            top: -91px;
+            z-index: 10000;
+            border-radius: 10px; /* верхние углы */
+
+            input {
+              cursor: pointer;
+              background-color: transparent;
+            }
+
+            // input[type='range']::-moz-range-track {
+            //   background-color: #353535; /* Измените на нужный цвет */
+            // }
+            // input[type='range']::-moz-range-thumb {
+            //   background-color: #353535; /* Измените на нужный цвет */
+            // }
+          }
+        }
+      }
+    }
+  }
+
+  .audioPlayer {
+    background-color: transparent !important;
+    border-radius: 15px;
+  }
+}
