@@ -6,7 +6,7 @@ const initialState = {
     name: 'Не суждено',
     avatar:
       '//avatars.yandex.net/get-music-content/10139807/b9678e53.a.28957427-1/50x50',
-    audioURL: 'Leningrad-Nesujdeno.mp3',
+    audioURL: 'Leningrad - Ne sujdeno.mp3',
     id: '___',
     albumId: '2',
     artistId: '3',
