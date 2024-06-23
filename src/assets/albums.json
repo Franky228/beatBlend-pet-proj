@@ -7,7 +7,8 @@
     "year": "2024",
     "genre": "русский рок",
     "id": "1",
-    "artistId": "1"
+    "artistId": "1",
+    "type": "album"
   },
   {
     "name": "Не суждено",
@@ -17,7 +18,8 @@
     "year": "2024",
     "genre": "русский рок",
     "id": "2",
-    "artistId": "1"
+    "artistId": "1",
+    "type": "album"
   },
   {
     "name": "Тюль",
@@ -27,7 +29,8 @@
     "year": "2023",
     "genre": "русский рок",
     "id": "3",
-    "artistId": "1"
+    "artistId": "1",
+    "type": "album"
   },
   {
     "name": "Ё! О!",
@@ -37,7 +40,8 @@
     "year": "2023",
     "genre": "русский рок",
     "id": "4",
-    "artistId": "1"
+    "artistId": "1",
+    "type": "album"
   },
   {
     "name": "Принцип",
@@ -47,7 +51,8 @@
     "year": "2023",
     "genre": "русский рок",
     "id": "5",
-    "artistId": "1"
+    "artistId": "1",
+    "type": "album"
   },
   {
     "name": "Психотерапевтическая",
@@ -57,7 +62,8 @@
     "year": "2023",
     "genre": "русский рок",
     "id": "6",
-    "artistId": "1"
+    "artistId": "1",
+    "type": "album"
   },
   {
     "name": "Русский",
@@ -67,7 +73,8 @@
     "year": "2024",
     "genre": "русский рок",
     "id": "7",
-    "artistId": "1"
+    "artistId": "1",
+    "type": "album"
   },
   {
     "name": "Гамаюн",
@@ -77,7 +84,8 @@
     "year": "2024",
     "genre": "русский рок",
     "id": "8",
-    "artistId": "1"
+    "artistId": "1",
+    "type": "album"
   },
   {
     "name": "Мертвец",
@@ -87,7 +95,8 @@
     "year": "2022",
     "genre": "русский рок",
     "id": "9",
-    "artistId": "1"
+    "artistId": "1",
+    "type": "album"
   },
   {
     "name": "Не Зорро",
@@ -97,7 +106,8 @@
     "year": "2022",
     "genre": "русский рок",
     "id": "10",
-    "artistId": "1"
+    "artistId": "1",
+    "type": "album"
   },
   {
     "name": "Москвич",
@@ -107,7 +117,8 @@
     "year": "2022",
     "genre": "русский рок",
     "id": "11",
-    "artistId": "1"
+    "artistId": "1",
+    "type": "album"
   },
   {
     "name": "Мелочи",
@@ -117,7 +128,8 @@
     "year": "2024",
     "genre": "русский рок",
     "id": "12",
-    "artistId": "1"
+    "artistId": "1",
+    "type": "album"
   },
   {
     "name": "Пасха",
@@ -127,7 +139,8 @@
     "year": "2017",
     "genre": "местная инди-музыка",
     "id": "13",
-    "artistId": "2"
+    "artistId": "2",
+    "type": "album"
   },
   {
     "name": "Страшно",
@@ -137,7 +150,8 @@
     "year": "2019",
     "genre": "местная инди-музыка",
     "id": "14",
-    "artistId": "2"
+    "artistId": "2",
+    "type": "album"
   },
   {
     "name": "Так закалялась сталь",
@@ -147,7 +161,8 @@
     "year": "2019",
     "genre": "местная инди-музыка",
     "id": "15",
-    "artistId": "2"
+    "artistId": "2",
+    "type": "album"
   },
   {
     "name": "Яблонный сад",
@@ -157,6 +172,40 @@
     "year": "2021",
     "genre": "местная инди-музыка",
     "id": "16",
-    "artistId": "2"
+    "artistId": "2",
+    "type": "album"
+  },
+  {
+    "name": "Zudwa-Dwa",
+    "artistName": "Химера",
+    "avatar": "//avatars.yandex.net/get-music-content/2397565/943d63e9.a.10787706-1/200x200",
+    "rating": 5,
+    "year": "1996",
+    "genre": "русский рок",
+    "id": "17",
+    "artistId": "3",
+    "type": "album"
+  },
+  {
+    "name": "Zudwa",
+    "artistName": "Химера",
+    "avatar": "//avatars.yandex.net/get-music-content/2808981/b22db780.a.4066141-2/200x200",
+    "rating": 5,
+    "year": "1997",
+    "genre": "русский рок",
+    "id": "18",
+    "artistId": "3",
+    "type": "album"
+  },
+  {
+    "name": "Химера",
+    "artistName": "Химера",
+    "avatar": "//avatars.yandex.net/get-music-content/163479/dfdea53f.a.4270124-1/200x200",
+    "rating": 5,
+    "year": "1993",
+    "genre": "русский рок",
+    "id": "19",
+    "artistId": "3",
+    "type": "album"
   }
 ]

@@ -277,5 +277,115 @@
     "artistId": "2",
     "artistName": "Shortparis",
     "rating": 5
+  },
+  {
+    "name": "Пётр",
+    "avatar": "//avatars.yandex.net/get-music-content/2397565/943d63e9.a.10787706-1/50x50",
+    "audioURL": "Himera - Petr.mp3",
+    "id": "29",
+    "albumId": "17",
+    "artistId": "3",
+    "artistName": "Химера",
+    "rating": 5
+  },
+  {
+    "name": "Вороны",
+    "avatar": "//avatars.yandex.net/get-music-content/2397565/943d63e9.a.10787706-1/50x50",
+    "audioURL": "Himera - Crows.mp3",
+    "id": "30",
+    "albumId": "17",
+    "artistId": "3",
+    "artistName": "Химера",
+    "rating": 5
+  },
+  {
+    "name": "Счастливого пути",
+    "avatar": "//avatars.yandex.net/get-music-content/2397565/943d63e9.a.10787706-1/50x50",
+    "audioURL": "Himera - Have a good trip.mp3",
+    "id": "31",
+    "albumId": "17",
+    "artistId": "3",
+    "artistName": "Химера",
+    "rating": 5
+  },
+  {
+    "name": "Рукоятка",
+    "avatar": "//avatars.yandex.net/get-music-content/2808981/b22db780.a.4066141-2/50x50",
+    "audioURL": "Himera - Handle.mp3",
+    "id": "32",
+    "albumId": "18",
+    "artistId": "3",
+    "artistName": "Химера",
+    "rating": 5
+  },
+  {
+    "name": "Zudwa",
+    "avatar": "//avatars.yandex.net/get-music-content/2808981/b22db780.a.4066141-2/50x50",
+    "audioURL": "Himera - Zudwa.mp3",
+    "id": "33",
+    "albumId": "18",
+    "artistId": "3",
+    "artistName": "Химера",
+    "rating": 5
+  },
+  {
+    "name": "Капитан Немо",
+    "avatar": "//avatars.yandex.net/get-music-content/2808981/b22db780.a.4066141-2/50x50",
+    "audioURL": "Himera - Captain Nemo.mp3",
+    "id": "34",
+    "albumId": "18",
+    "artistId": "3",
+    "artistName": "Химера",
+    "rating": 5
+  },
+  {
+    "name": "Вода-огонь",
+    "avatar": "//avatars.yandex.net/get-music-content/2808981/b22db780.a.4066141-2/50x50",
+    "audioURL": "Himera - Water-fire.mp3",
+    "id": "35",
+    "albumId": "18",
+    "artistId": "3",
+    "artistName": "Химера",
+    "rating": 5
+  },
+  {
+    "name": "Считалочка",
+    "avatar": "//avatars.yandex.net/get-music-content/163479/dfdea53f.a.4270124-1/50x50",
+    "audioURL": "Himera - Rhyme.mp3",
+    "id": "36",
+    "albumId": "19",
+    "artistId": "3",
+    "artistName": "Химера",
+    "rating": 5
+  },
+  {
+    "name": "Зимний синдром",
+    "avatar": "//avatars.yandex.net/get-music-content/163479/dfdea53f.a.4270124-1/50x50",
+    "audioURL": "Himera - Winter Syndrome.mp3",
+    "id": "37",
+    "albumId": "19",
+    "artistId": "3",
+    "artistName": "Химера",
+    "rating": 5
+  },
+  {
+    "name": "Химера",
+    "avatar": "//avatars.yandex.net/get-music-content/163479/dfdea53f.a.4270124-1/50x50",
+    "audioURL": "Himera - Himera.mp3",
+    "id": "38",
+    "albumId": "19",
+    "artistId": "3",
+    "artistName": "Химера",
+    "rating": 5
+  },
+  {
+    "name": "Клоп",
+    "avatar": "//avatars.yandex.net/get-music-content/163479/dfdea53f.a.4270124-1/50x50",
+    "audioURL": "Himera - Bedbug.mp3",
+    "id": "39",
+    "albumId": "19",
+    "artistId": "3",
+    "artistName": "Химера",
+    "rating": 5
   }
 ]
